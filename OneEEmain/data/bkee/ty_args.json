@@ -1,0 +1,78 @@
+{
+  "Start-org": ["Agent", "Org", "Place", "Time"],
+  "Die": ["Agent", "Instrument", "Place", "Time", "Victim"],
+  "Injure": ["Agent", "Instrument", "Place", "Time", "Victim"],
+  "Demonstrate": ["Entity", "Place", "Time"],
+  "Attack": ["Attacker", "Instrument", "Place", "Target", "Time"],
+  "Transfer-money": [
+    "Beneficiary",
+    "Giver",
+    "Money",
+    "Place",
+    "Recipient",
+    "Time"
+  ],
+  "Transport": [
+    "Agent",
+    "Artifact",
+    "Destination",
+    "Origin",
+    "Time",
+    "Vehicle"
+  ],
+  "Phone-write": ["Entity", "Time"],
+  "Arrest-jail": ["Agent", "Crime", "Person", "Place", "Time"],
+  "Sue": ["Adjudicator", "Crime", "Defendant", "Place", "Plaintiff", "Time"],
+  "Execute": ["Agent", "Crime", "Person", "Place", "Time"],
+  "Charge-indict": [
+    "Adjudicator",
+    "Crime",
+    "Defendant",
+    "Place",
+    "Prosecutor",
+    "Time"
+  ],
+  "Trial-hearing": [
+    "Adjudicator",
+    "Crime",
+    "Defendant",
+    "Place",
+    "Prosecutor",
+    "Time"
+  ],
+  "End-org": ["Org", "Place", "Time"],
+  "Merge-org": ["Org", "Time"],
+  "Declare-bankruptcy": ["Org", "Place", "Time"],
+  "Release-parole": ["Crime", "Entity", "Person", "Place", "Time"],
+  "Sentence": [
+    "Adjudicator",
+    "Crime",
+    "Defendant",
+    "Place",
+    "Sentence",
+    "Time"
+  ],
+  "Transfer-ownership": [
+    "Artifact",
+    "Beneficiary",
+    "Buyer",
+    "Place",
+    "Price",
+    "Seller",
+    "Time"
+  ],
+  "Meet": ["Entity", "Place", "Time"],
+  "End-position": ["Entity", "Person", "Place", "Position", "Time"],
+  "Pardon": ["Adjudicator", "Crime", "Defendant", "Place", "Time"],
+  "Divorce": ["Person", "Place", "Time"],
+  "Start-position": ["Entity", "Person", "Place", "Position", "Time"],
+  "Marry": ["Person", "Place", "Time"],
+  "Elect": ["Entity", "Person", "Place", "Position", "Time"],
+  "Extradite": ["Agent", "Destination", "Origin", "Person", "Time"],
+  "Be-born": ["Person", "Place", "Time"],
+  "Convict": ["Adjudicator", "Crime", "Defendant", "Place", "Time"],
+  "Nominate": ["Agent", "Person", "Place", "Position", "Time"],
+  "Arquit": ["Adjudicator", "Crime", "Defendant", "Time"],
+  "Appeal": ["Adjudicator", "Crime", "Defendant", "Prosecutor", "Time"],
+  "Fine": ["Adjudicator", "Crime", "Entity", "Money", "Place", "Time"]
+}

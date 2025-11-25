@@ -1,0 +1,96 @@
+{
+  "doc_id": "dev-00000",
+  "sent_id": "dev-00000",
+  "tokens": [
+    "Ông",
+    "chủ",
+    "."
+  ],
+  "sentence": "Ông chủ Nhà Trắng hồi tháng 8/2017 ân xá cho Joe Arpaio , cảnh sát trưởng hạt Maricopa , bang Arizona , bị buộc tội không tuân lệnh toà án trong một vụ án hình sự liên quan đến những người tình nghi là dân nhập cư bất hợp pháp .",
+  "pieces": [
+    "▁Ông",
+    "▁chủ",
+    "▁Nhà",
+    "▁Tr",
+    "▁pháp",
+    "."
+  ],
+  "token_lens": [
+    1, 1, 4, 1, 1, 2, 3, 1, 4, 1, 2, 1, 1, 3, 1, 1, 1, 1, 1, 2, 1, 2, 1, 3, 1,
+    1, 1, 1, 2, 2, 1, 1, 2, 1, 1, 1, 2, 3, 1
+  ],
+  "entity_mentions": [
+    {
+      "id": "dev-00000-T15",
+      "text": "tháng 8/2017",
+      "entity_type": "TIME",
+      "start": 4,
+      "end": 6,
+      "start_char": 22,
+      "end_char": 34
+    },
+    {
+      "id": "dev-00000-T14",
+      "text": "Ông chủ Nhà Trắng",
+      "entity_type": "PER",
+      "start": 0,
+      "end": 3,
+      "start_char": 0,
+      "end_char": 17
+    },
+    {
+      "id": "dev-00000-T16",
+      "text": "Joe Arpaio , cảnh sát trưởng hạt Maricopa , bang Arizona",
+      "entity_type": "PER",
+      "start": 8,
+      "end": 17,
+      "start_char": 45,
+      "end_char": 101
+    },
+    {
+      "id": "dev-00000-T17",
+      "text": "không tuân lệnh toà án trong một vụ án hình sự liên quan đến những người tình nghi là dân nhập cư bất hợp pháp",
+      "entity_type": "CRIME",
+      "start": 20,
+      "end": 38,
+      "start_char": 116,
+      "end_char": 226
+    }
+  ],
+  "event_mentions": [
+    {
+      "id": "dev-00000-T13",
+      "event_type": "Pardon",
+      "trigger": {
+        "text": "ân xá",
+        "start": 6,
+        "end": 7,
+        "start_char": 35,
+        "end_char": 40
+      },
+      "arguments": [
+        {
+          "entity_id": "dev-00000-T15",
+          "text": "tháng 8/2017",
+          "role": "Time"
+        },
+        {
+          "entity_id": "dev-00000-T14",
+          "text": "Ông chủ Nhà Trắng",
+          "role": "Adjudicator"
+        },
+        {
+          "entity_id": "dev-00000-T16",
+          "text": "Joe Arpaio , cảnh sát trưởng hạt Maricopa , bang Arizona",
+          "role": "Defendant"
+        },
+        {
+          "entity_id": "dev-00000-T17",
+          "text": "không tuân lệnh toà án trong một vụ án hình sự liên quan đến những người tình nghi là dân nhập cư bất hợp pháp",
+          "role": "Crime"
+        }
+      ]
+    }
+  ],
+  "relation_mentions": []
+}

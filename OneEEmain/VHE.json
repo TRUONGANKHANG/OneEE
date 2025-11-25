@@ -1,0 +1,74 @@
+{
+  "id": "dvsktt-s7",
+  "text": "Xưa cháu ba đời của Viêm Đế họ Thần Nông là Đế Minh sinh ra Đế Nghi, sau Đế Minh nhân đi tuần phương Nam, đến Ngũ Lĩnh lấy con gái Vụ Tiên, sinh ra vua [Kinh Dương Vương].",
+  "events": [
+    {
+      "type": "be-born",
+      "trigger_word": "sinh",
+      "offset": [52, 56],
+      "arguments": [
+        {
+          "mention": "Đế Minh",
+          "offset": [44, 51],
+          "role": "agent"
+        },
+        {
+          "mention": "Đế Nghi",
+          "offset": [60, 67],
+          "role": "theme"
+        }
+      ]
+    },
+    {
+      "type": "transport",
+      "trigger_word": "đi tuần",
+      "offset": [86, 93],
+      "arguments": [
+        {
+          "mention": "Đế Minh",
+          "offset": [73, 80],
+          "role": "agent"
+        },
+        {
+          "mention": "phương Nam",
+          "offset": [94, 104],
+          "role": "goal"
+        }
+      ]
+    },
+    {
+      "type": "marry",
+      "trigger_word": "lấy",
+      "offset": [119, 122],
+      "arguments": [
+        {
+          "mention": "Đế Minh",
+          "offset": [73, 80],
+          "role": "agent"
+        },
+        {
+          "mention": "con gái Vụ Tiên",
+          "offset": [123, 138],
+          "role": "theme"
+        }
+      ]
+    },
+    {
+      "type": "be-born",
+      "trigger_word": "sinh",
+      "offset": [140, 144],
+      "arguments": [
+        {
+          "mention": "Đế Minh",
+          "offset": [73, 80],
+          "role": "agent"
+        },
+        {
+          "mention": "vua [Kinh Dương Vương]",
+          "offset": [148, 170],
+          "role": "theme"
+        }
+      ]
+    }
+  ]
+}
